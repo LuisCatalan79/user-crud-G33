@@ -52,7 +52,7 @@ const FormUser = ({createUser , userUpdate, updateUser, setUserUpdate, setIsForm
       <h2 className="form__title">{ userUpdate ? 'Update User' : 'Create new user' }</h2>
       <label className="form__label">
         <span className="form__field__name">Email: </span>
-        <input className="form__field" {...register('email')} type="email" placeholder="mail@mail.com" />
+        <input className="form__field" {...register('email')} type="email" placeholder="user@mail.com" />
       </label>
       <label className="form__label">
         <span className="form__field__name">Password: </span>
