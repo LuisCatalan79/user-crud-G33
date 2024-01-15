@@ -1,0 +1,76 @@
+.card__user{
+    border: 1px solid lightgray  ;
+    min-width: 300px;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.user__name{
+    padding-top: 20px;
+    font-size: 1.7rem;
+    text-align: center;
+    text-transform: capitalize;  
+}
+
+.user__list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+    padding-left: 1em;
+}
+.user__item__list{
+    font-size: 1rem;
+}
+
+.user__label{
+    display: block;
+    font-weight: 200;
+    color: lightgray;
+}
+
+.user__info{
+    font-weight: 300;
+    color: black;
+
+}
+.footer__card{
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+    gap: 10px;
+}
+
+.btn__delete{
+
+    background-color: orangered;
+    width: 40px;
+    aspect-ratio: 1;
+    border:none;
+    font-size: 1.3rem;
+    border-radius: 7px;
+    color: white;
+
+
+}
+
+.btn__edit{
+    width: 40px;
+    aspect-ratio: 1;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-size: 1.3rem;
+    color: lightgray;
+}
+
+.user__hr{
+    
+    border-color: lightgray ;
+    filter: brightness(1.8);
+    
+    width: 80%;
+    height: 1px;
+}

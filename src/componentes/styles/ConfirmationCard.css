@@ -1,0 +1,46 @@
+.confirmation{
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+    background-color: white;
+    padding: 20px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    position:relative; 
+    
+}
+
+.title__confirmation{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1em;
+    height: 500;
+}
+
+.msg__confirmation{
+    padding-top: 20px;
+    font-size: 1.7rem;
+    text-align: center;
+      
+}
+.msg__confirmation__user{
+    text-transform: capitalize;
+}
+
+.btn__confirmation{
+    margin-top: 1em;    
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    padding: 0.5em 0;
+    font-weight: 500;
+    background-color: #555A88;
+    color: white;
+    border-radius: 0.5em;
+}
+
+.btn__confirmation:hover{
+    filter: brightness(1.2);
+}
