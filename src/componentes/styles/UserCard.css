@@ -69,7 +69,7 @@
 .user__hr{
     
     border-color: lightgray ;
-    filter: brightness(1.8);
+    /* filter: brightness(1.8); */
     
     width: 80%;
     height: 1px;
