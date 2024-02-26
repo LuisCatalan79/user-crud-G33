@@ -16,7 +16,7 @@ function App() {
 
 
   
-  const baseUrl = 'https://users-crud.academlo.tech'
+  const baseUrl = 'https://user-crud-backend-g33.onrender.com'
   const [ users, getUsers, createUser, deleteUser, updateUser ] = useFetch(baseUrl)
 
   useEffect (() => {
